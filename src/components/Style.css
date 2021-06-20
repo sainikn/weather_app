@@ -1,0 +1,18 @@
+.center-container{
+    display: flex;
+    justify-content:center;
+}
+.day-container{
+    width: 400px;
+    background-color: #4FACFE;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    transition: 0.3s;
+    animation: ease-in;
+    margin: 0.5rem;
+}
+
+.day-container:hover{
+    transform: scale(1.05);
+}
